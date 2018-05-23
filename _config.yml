@@ -97,6 +97,7 @@ menu:
   # categories: /categories/ || th
   tags: /tags/ || tags
   resume: /resume/ || user
+  demos: /demos/ || cogs
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -127,7 +128,7 @@ scheme: Gemini
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/ahu1024 || github
+  GitHub: https://github.com/pch1024 || github
   E-Mail: mailto:pch1024@outllook.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -217,7 +218,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: ture
-  length: 150
+  length: 100
 
 # Post meta display settings
 post_meta:
@@ -353,19 +354,19 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 11ee3eaf406620d405bb85e0f32425c7
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
-disqus:
-  enable: true
-  shortname: ahu1024-github-io
-  count: true
+# disqus:
+  # enable: true
+  # shortname: ahu1024-github-io
+  # count: true
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 103781
 
 # changyan
 changyan:
@@ -654,8 +655,8 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: false
-  async: false
+  enable: true
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
